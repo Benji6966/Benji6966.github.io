@@ -11,6 +11,8 @@ body, html {
     display: flex;
     height: 100%;
     width: 100%;
+    --main-color: #93732b;
+    background-color: #eff0f3;
 }
 body {
     flex-direction: column;
@@ -18,7 +20,7 @@ body {
 }
 
 #header {
-    background-color:#32323e;
+    background-color:var(--main-color);
     display: flex;
     padding: 40px;
     width: 100%;
@@ -39,6 +41,8 @@ body {
 }
 #title {
     color: white;
+    font-size: 48px;
+    margin: 0px;
 }
 
 #main {
@@ -76,21 +80,21 @@ body {
    
 }
 .company-name {
-    color: #cf920a;
-    font-weight:bolder
+    color: var(--main-color);
+    font-weight:bold
 }
 .paragraph-experience {
 
 }
 .date {
-
+    text-align: right;
 }
 
 #aside {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    border-left: 1px solid #cf920a;
+    border-left: 3px solid var(--main-color);
 }
 #aside-title {
 
