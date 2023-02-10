@@ -27,15 +27,12 @@ body {
     justify-content: space-between;
     position: relative;
 }
-#seigneur {
+#img {
     position: absolute;
     top: 30%;
     right: 15px;
     border-radius: 50%;
     border: 2px solid #3d3d51;
-    background-image: url(images/benji_le_seigneur.png);
-    background-position: center;
-    background-size: cover;
     width: 150px;
     height: 150px;
 }
